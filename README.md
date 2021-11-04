@@ -1,5 +1,5 @@
 # Discord Games BETA
-## 1 Hour left to publish on [npm](https://www.npmjs.com/)
+## 30 mins left to publish on [npm](https://www.npmjs.com/)
 
 <br>
 
