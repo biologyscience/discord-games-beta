@@ -1,4 +1,8 @@
 # Discord Games BETA
+## 3 Hours left to publish on [npm](https://www.npmjs.com/)
+
+<br>
+
 ### **NOTE**:
 This is my first npm package, used for testing with others. Feel free to continue reading if you want to use it for yourself.
 
