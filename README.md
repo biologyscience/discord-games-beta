@@ -26,9 +26,7 @@ const client = new Discord.Client();
 client.on('message', (message) => // replace ('message', with ('messageCreate', if you are on discord.js v13
 {
     if (message.content === 'play')
-    {
-        if (!reaction.users.cache.has(message.author.id)) return;
-        
+    {        
         const VoiceChannel = message.member.voice.channel;  // The voice channel in which the event is gonna occur
         
         const GameName = 'youtube';  // Name of the game
