@@ -133,8 +133,7 @@ client.login('YourBotTokenHere');
 
 <br>
 
-#
-## Known Errors:
+## Known Error:
 
 - Most common error. Caused due to version mismatch of [node-fetch](https://www.npmjs.com/package/node-fetch)  
 
@@ -147,7 +146,8 @@ const fetch = require('node-fetch');
 Error [ERR_REQUIRE_ESM]: require() of ES Module ... 
 ```
 Fix: Change **version** of **node-fetch** on your **package.json** to **2.x** which should look something like this `"node-fetch": "^2.x",`
-#
+
+<br>
 
 ## Have Fun 🥳
 
