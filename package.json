@@ -1,6 +1,6 @@
 {
   "name": "discord-games-beta",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "This is my first npm package, used for testing this module with others. Feel free to read the read the contents if you want to use this package !",
   "main": "index.js",
   "keywords": [
