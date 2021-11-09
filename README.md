@@ -41,7 +41,7 @@ game.play(vc).then(result => console.log(result));
 
 // Here "vc" is a Discord Voice channel which you want to play the game in.
 ```
-- The Result:
+- Result:
 ```js
 {
     "code" : new String // Code of the invite link
