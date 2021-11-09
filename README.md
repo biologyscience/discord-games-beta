@@ -20,7 +20,6 @@ npm i discord-games-beta
 - Constructor:
 ```js
 const DiscordGame = require('discord-games-beta');
-
 const game = new DiscordGame(params);
 ```
 - Params:
