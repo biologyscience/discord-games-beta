@@ -7,8 +7,6 @@ This is my first npm package, used for testing with my friends. Feel free to con
 If you have any errors or issues, please update the package by doing `npm i discord-games-beta`  
 If that doesn't solve your error, have a look at the **Known Issues** section below the code examples.
 
-<br>
-
 # What is this ?
 This is a package used to enable an game event inside a **Discord Voice Channel**, like **YouTube Watch Togther**, **Chess**, **Word Tile**, and much more.
 
