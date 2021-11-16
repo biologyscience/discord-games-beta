@@ -1,0 +1,30 @@
+{
+  "name": "discord-games-beta",
+  "version": "1.3.9",
+  "description": "This is my first npm package, used for testing this package with others. Feel free to read the read the contents if you want to use this package !",
+  "main": "index.js",
+  "keywords": [
+    "discord-games",
+    "youtube",
+    "youtube-watch-together",
+    "discord-minigames",
+    "discord",
+    "minigames",
+    "fun",
+    "test-package",
+    "discord-games-beta",
+    "discord-bot",
+    "youtube-together",
+    "watch-together"
+  ],
+  "author": "biologyscience",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/BIOLOGY-SCIENCE/discord-games-beta",
+    "type": "git"
+  },
+  "homepage": "https://biology-science.github.io/DiscordGamesBeta",
+  "dependencies": {
+    "node-fetch": "^2.x"
+  }
+}
