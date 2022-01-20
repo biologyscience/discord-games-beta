@@ -247,5 +247,5 @@ If you face any other issue, feel free to create an issue on the [issues page](h
 
 # 
 
-**Do not** expect frequent changes to this package as this package is only used to test with my friends, but it works fine with everyone.  
+**Do not** expect frequent changes to this package ||unless there is a new game release|| as this package is only used to test with my friends, but it works fine with everyone.  
 If you have any questions, you may add me in **Discord**: [BIOLOGY SCIENCE#1756](https://discordapp.com/users/580322451729154049)
