@@ -90,8 +90,8 @@ class DiscordGames
             if (typeof(this.MaxDuration) === 'number' && this.MaxDuration > 168) throw new Error(errors.exccedTime);
             if (typeof(this.MaxDuration) === 'number' && this.MaxDuration === 0) throw new Error(errors.invalid.time);
             if (typeof(this.MaxDuration) !== 'number') throw new Error(errors.invalid.time);
-            if (VoiceChannel === undefined) throw new Error(errors.no.vc);
-            if (VoiceChannel && VoiceChannel.id === undefined) throw new Error(errors.invalid.vc);
+            if ([undefined, null].includes(VoiceChannel)) throw new Error(errors.no.vc);
+            if (VoiceChannel.id === undefined) throw new Error(errors.invalid.vc);
 
             let time = this.MaxDuration;
 
