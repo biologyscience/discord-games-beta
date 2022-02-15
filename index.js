@@ -101,7 +101,7 @@ class DiscordGames
     
             const headers = { authorization: 'Bot ' + this.BotToken, 'content-type' : 'application/json' };
     
-            const URL = 'https://discord.com/api/v8/channels/' + VoiceChannel.id + '/invites';
+            const URL = 'https://discord.com/api/v10/channels/' + VoiceChannel.id + '/invites';
     
             fetch.default(URL, { method: 'POST', body: body, headers: headers }).then(x => x.json()).then((data) =>
             {
