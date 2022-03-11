@@ -15,10 +15,10 @@ const
         spellcast : '852509694341283871',
         checkers : '832013003968348200',
         sketchheads : '902271654783242291',
-        ocho: '832025144389533716'
+        blazing8s: '832025144389533716'
     },
     
-    appNames = ['youtube', 'poker', 'betrayal', 'fishing', 'chess', 'letterleague', 'wordsnack', 'awkword', 'doodlecrew', 'spellcast', 'checkers', 'sketchheads', 'ocho'],
+    appNames = ['youtube', 'poker', 'betrayal', 'fishing', 'chess', 'letterleague', 'wordsnack', 'awkword', 'doodlecrew', 'spellcast', 'checkers', 'sketchheads', 'blazing8s'],
 
     errors =
     {
@@ -45,7 +45,7 @@ const
 class DiscordGames
 {
    /**
-    * @typedef {'youtube' | 'poker' | 'betrayal' | 'fishing' | 'chess' | 'letterleague' | 'wordsnack' | 'awkword' | 'doodlecrew' | 'spellcast' | 'checkers' | 'sketchheads' | 'ocho'} NameOfTheGame
+    * @typedef {'youtube' | 'poker' | 'betrayal' | 'fishing' | 'chess' | 'letterleague' | 'wordsnack' | 'awkword' | 'doodlecrew' | 'spellcast' | 'checkers' | 'sketchheads' | 'blazing8s'} NameOfTheGame
     * @typedef { {code: String, inviteLink: String, createdAt: Date, validTill: Date | String, guild: { ID: String, name: String }, channel: { ID: String, name: String }, inviter: { ID: String, name: String }, app: { ID: String, name: String, description: String, summary: String, maxMembers: String, icon: String}} } result
     */
 
