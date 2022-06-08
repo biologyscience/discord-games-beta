@@ -8,16 +8,17 @@ const
         betrayal : '773336526917861400',
         fishing : '814288819477020702',
         chess : '832012774040141894',
-        letterleague : '879863686565621790',
-        wordsnack : '879863976006127627',
-        doodlecrew : '878067389634314250',
+        letterLeague : '879863686565621790',
+        wordSnack : '879863976006127627',
+        doodleCrew : '878067389634314250',
         awkword : '879863881349087252',
-        spellcast : '852509694341283871',
+        spellCast : '852509694341283871',
         checkers : '832013003968348200',
-        sketchheads : '902271654783242291',
+        sketchHeads : '902271654783242291',
         blazing8s: '832025144389533716',
-        landio: '903769130790969345',
-        puttparty: '945737671223947305'
+        landIO: '903769130790969345',
+        puttParty: '945737671223947305',
+        bobbleLeague: '947957217959759964'
     },
     
     appNames =
@@ -27,16 +28,17 @@ const
         'betrayal',
         'fishing',
         'chess',
-        'letterleague',
-        'wordsnack', 
+        'letterLeague',
+        'wordSnack', 
         'awkword',
-        'doodlecrew',
-        'spellcast',
+        'doodleCrew',
+        'spellCast',
         'checkers',
-        'sketchheads',
+        'sketchHeads',
         'blazing8s',
-        'landio',
-        'puttparty'
+        'landIO',
+        'puttParty',
+        'bobbleLeague'
     ],
 
     errors =
@@ -64,7 +66,7 @@ const
 class DiscordGames
 {
    /**
-    * @typedef {'youtube' | 'poker' | 'betrayal' | 'fishing' | 'chess' | 'letterleague' | 'wordsnack' | 'awkword' | 'doodlecrew' | 'spellcast' | 'checkers' | 'sketchheads' | 'blazing8s' | 'landio' | 'puttparty'} NameOfTheGame
+    * @typedef {'youtube' | 'poker' | 'betrayal' | 'fishing' | 'chess' | 'letterLeague' | 'wordSnack' | 'awkword' | 'doodleCrew' | 'spellCast' | 'checkers' | 'sketchHeads' | 'blazing8s' | 'landIO' | 'puttParty' | 'bobbleLeague'} NameOfTheGame
     * @typedef { {code: String, inviteLink: String, createdAt: Date, validTill: Date | String, guild: { ID: String, name: String }, channel: { ID: String, name: String }, inviter: { ID: String, name: String }, app: { ID: String, name: String, description: String, summary: String, maxMembers: String, icon: String}} } result
     */
 

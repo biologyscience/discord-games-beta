@@ -1,6 +1,6 @@
 {
   "name": "discord-games-beta",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "This is my first npm package, used for testing this package with others. Feel free to read the read the contents if you want to use this package !",
   "main": "index.js",
   "keywords": [
@@ -11,6 +11,7 @@
     "discord",
     "minigames",
     "fun",
+    "discord-games-lab",
     "test-package",
     "discord-games-beta",
     "discord-bot",

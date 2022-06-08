@@ -130,16 +130,17 @@ poker
 betrayal
 fishing
 chess
-letterleague
-wordsnack
+letterLeague
+wordSnack
 awkword
-doodlecrew
-spellcast
+doodleCrew
+spellCast
 checkers
-sketchheads
+sketchHeads
 blazing8s
-landio
-puttparty
+landIO
+puttParty
+bobbleLeague
 ```
 
 <br>
@@ -175,7 +176,7 @@ client.on('messageCreate', (message) =>
         .setColor('#2F3136')
         .setDescription(`React to the appropriate emoji to start a game !\n\n${games.join('\n')}`);
 
-        message.channel.send({embeds: [ReactionEmbed]}).then((msg) => // change "{embeds: [ReactionEmbed]}" to "ReactionEmbed" if you are on discord.js v12
+        message.channel.send({embeds: [ReactionEmbed]}).then((msg) =>
         {
             msg.react('🇦');
             msg.react('🇧');
