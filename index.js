@@ -19,7 +19,8 @@ const
         landIO: '903769130790969345',
         puttParty: '945737671223947305',
         bobbleLeague: '947957217959759964',
-        askAway: '976052223358406656'
+        askAway: '976052223358406656',
+        kwim: '950505761862189096'
     },
     
     appNames =
@@ -40,7 +41,8 @@ const
         'landIO',
         'puttParty',
         'bobbleLeague',
-        'askAway'
+        'askAway',
+        'kwim'
     ],
 
     errors =
@@ -68,7 +70,7 @@ const
 class DiscordGames
 {
    /**
-    * @typedef {'youtube' | 'poker' | 'betrayal' | 'fishing' | 'chess' | 'letterLeague' | 'wordSnack' | 'awkword' | 'doodleCrew' | 'spellCast' | 'checkers' | 'sketchHeads' | 'blazing8s' | 'landIO' | 'puttParty' | 'bobbleLeague' | 'askAway'} NameOfTheGame
+    * @typedef {'youtube' | 'poker' | 'betrayal' | 'fishing' | 'chess' | 'letterLeague' | 'wordSnack' | 'awkword' | 'doodleCrew' | 'spellCast' | 'checkers' | 'sketchHeads' | 'blazing8s' | 'landIO' | 'puttParty' | 'bobbleLeague' | 'askAway' | 'kwim'} NameOfTheGame
     * @typedef { {code: String, inviteLink: String, createdAt: Date, validTill: Date | String, guild: { ID: String, name: String }, channel: { ID: String, name: String }, inviter: { ID: String, name: String }, app: { ID: String, name: String, description: String, summary: String, maxMembers: String, icon: String}} } result
     */
 
