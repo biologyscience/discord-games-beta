@@ -142,7 +142,7 @@ landIO
 puttParty
 bobbleLeague
 askAway
-kwim    // Game name for "Know What I Meme"
+kwim    // Game name for "Know What I Meme !"
 ```
 
 <br>
