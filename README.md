@@ -1,3 +1,5 @@
+# This package will no longer be maintained, see https://github.com/biologyscience/discord-games-beta/blob/main/deprecated.md for more info
+
 # Discord Games BETA
 ### **NOTE**:
 This is my first npm package, used for testing with my friends. Feel free to continue reading if you want to use it for yourself.
@@ -142,7 +144,7 @@ landIO
 puttParty
 bobbleLeague
 askAway
-kwim    // Game name for "Know What I Meme !"
+kwim    // Game name for "Know What I Meme"
 ```
 
 <br>
